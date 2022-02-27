@@ -84,7 +84,7 @@ namespace AI_file_recognition {
                 System.Console.WriteLine(e.Message);
                 return -1.0;
             }
-            ulong currect = 0;
+            ulong currect = 0, processed = 0;
             foreach (string file in posFilePaths) {
                 if (!file.Contains(".vcr")) {
                     System.Console.WriteLine(file + " is not .vcr. Skipping");
@@ -102,6 +102,7 @@ namespace AI_file_recognition {
                 } else {
                     Neuron.AdjustWeights(input, false);
                 }
+                processed++;
             }
             foreach (string file in negFilePaths) {
                 if (!file.Contains(".vcr")) {
@@ -120,8 +121,11 @@ namespace AI_file_recognition {
                 } else {
                     Neuron.AdjustWeights(input, true);
                 }
+                processed++;
             }
-            return (double)currect / (dirPos.Length + dirNeg.Length);
+            if (processed == 0.0)
+                return -1.0; 
+            return (double)currect / processed;
         }
     }
 }
