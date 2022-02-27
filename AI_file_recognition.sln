@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI_file_recognition", "AI_file_recognition\AI_file_recognition.csproj", "{3F45CE21-22C7-40E5-9E5F-19E4DABF7A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "files_to_vector", "files_to_vector\files_to_vector.csproj", "{CDA6187E-E6A4-4DFB-9431-F2C896215639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F45CE21-22C7-40E5-9E5F-19E4DABF7A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F45CE21-22C7-40E5-9E5F-19E4DABF7A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F45CE21-22C7-40E5-9E5F-19E4DABF7A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F45CE21-22C7-40E5-9E5F-19E4DABF7A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA6187E-E6A4-4DFB-9431-F2C896215639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA6187E-E6A4-4DFB-9431-F2C896215639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA6187E-E6A4-4DFB-9431-F2C896215639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA6187E-E6A4-4DFB-9431-F2C896215639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A0E8F43-AF56-4C29-BDEA-6B81D2576DF1}
+	EndGlobalSection
+EndGlobal
